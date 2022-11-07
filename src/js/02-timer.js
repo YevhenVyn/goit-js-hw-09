@@ -38,7 +38,7 @@ const fp = flatpickr(refs.dateTimeInput, options);
 function checkingDate (){
   currenTime < dateSelected ? 
   refs.startBtn.removeAttribute('disabled') :
-  alert('Please choose the date that in the future')
+  alert('Please choose the date in the future')
 }
 
 function handleStartBtn (event) {
