@@ -16,6 +16,7 @@ let date = new Date();
 let currenTime =  date.getTime();
 let remainigTime = null
 let dateSelected = null;
+let timerId = null;
 
 
 const options = {
